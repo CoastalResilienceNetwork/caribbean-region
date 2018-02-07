@@ -1,39 +1,56 @@
 [
     {
-        "displayName": "The Big Island",
+        "displayName": "Restoration Explorer",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://services.coastalresilience.org/arcgis/rest/services/Hawaii",
-            "name": "Hawaii",
-            "reportGpUrl": "http://services.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
-            "reportDbPath": "Hawaii.gdb" 
+            "url": "http://dev.services.coastalresilience.org/arcgis/rest/services/Caribbean",
+            "name": "Restoration_Explorer"
         },
         "includeLayers": [
             {
-                "name": "Boundaries",
-                "displayName": "Boundaries",
-                "includeAllLayers": true
+                "name": "Roads",
+                "displayName": "Roads"
             },
             {
-                "name": "Land Based Source Pollutants",
-                "displayName": "Land Based Source Pollutants",
-                "includeAllLayers": true
+                "name": "Coastline",
+                "displayName": "Coastline"
             },
             {
-                "name": "Marine Targets - Final",
-                "displayName": "Marine Targets",
-                "includeAllLayers": true
+                "name": "Reefcrest",
+                "displayName": "Reefcrest"
             },
             {
-                "name": "Land Use and Imagery",
-                "displayName": "Land Use and Imagery",
-                "includeAllLayers": true
+                "name": "Marine Parks",
+                "displayName": "Marine Parks"
             },
             {
-                "name": "Physical Habitat Structure",
-                "displayName": "Physical Habitat Structure",
-                "includeAllLayers": true
+                "name": "Population",
+                "displayName": "Population"
+            },
+            {
+                "name": "0.25m SLR Scenario",
+                "displayName": "0.25m SLR Scenario"
+            },
+            {
+                "name": "1m SLR Scenario",
+                "displayName": "1m SLR Scenario"
+            },
+            {
+                "name": "Benthic Habitats and Mangroves",
+                "displayName": "Benthic Habitats and Mangroves"
+            },
+            {
+                "name": "Island",
+                "displayName": "Island"
+            },
+            {
+                "name": "carib_resotoration_explorer_n",
+                "displayName": "carib_resotoration_explorer_n"
+            },
+            {
+                "name": "Bcayman_wm_erase",
+                "displayName": "cayman_wm_erase"
             }
         ]
     }
