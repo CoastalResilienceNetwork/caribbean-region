@@ -1,8 +1,9 @@
 {
-  "plugins": [
-      {
-          "repo": "ecological-effects-slc",
-          "name": "ecological-effects-slc"
-      }
-  ]
+    "plugins": [
+        {
+            "repo": "multiexplorer",
+            "name": "restoration_explorer"
+        }
+    ]
+
 }
