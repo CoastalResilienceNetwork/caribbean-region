@@ -186,9 +186,10 @@
 		  ],
 	        "name": "Caribbean",
 			"sliderLabels" : ["None","Low","Med","High","V.High"],
-			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/Caribbean/Restoration_Explorer/MapServer",
+			"url": "http://services.coastalresilience.org/arcgis/rest/services/PostGIS/DatabaseConnection/MapServer",
+			"workspaceId": "postgis",
 			"geometryType": "polygon",
-			"dataset": "carib_resotoration_explorer_n",
+			"dataset": "sde.carib_resotoration_explorer_n",
 			"reqFields": ["objectid", "shape"],
 			"methods": "methods/Alabama_Dashboard.pdf",
             "sliderLabels" : ["None","Low","Med","High","V.High"],
@@ -487,11 +488,12 @@
 			}
 		  ],
 	        "name": "Cayman",
-			"ancillaryUrl": "http://dev.services.coastalresilience.org/arcgis/rest/services/Caribbean/Restoration_Explorer/MapServer",
+			"ancillaryUrl": "http://services.coastalresilience.org/arcgis/rest/services/Caribbean/Restoration_Explorer/MapServer",
 			"sliderLabels" : ["None","Low","Med","High","V.High"],
-			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/Caribbean/Restoration_Explorer/MapServer",
+			"url": "http://services.coastalresilience.org/arcgis/rest/services/PostGIS/DatabaseConnection/MapServer",
+			"workspaceId": "postgis",
 			"geometryType": "polygon",
-			"dataset": "cayman_wm_erase",
+			"dataset": "sde.cayman_wm_erase",
 			"reqFields": ["objectid", "shape"],
 			"methods": "plugins/restoration_explorer/CaymanMethods.pdf",
             "sliderLabels" : ["None","Low","Med","High","V.High"],
@@ -521,4 +523,3 @@
         }
     ]
 }
-	
