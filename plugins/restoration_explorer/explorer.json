@@ -186,7 +186,7 @@
 		  ],
 	        "name": "Caribbean",
 			"sliderLabels" : ["None","Low","Med","High","V.High"],
-			"url": "http://services.coastalresilience.org/arcgis/rest/services/PostGIS/DatabaseConnection/MapServer",
+			"url": "https://services2.coastalresilience.org/arcgis/rest/services/PostGIS/DatabaseConnection/MapServer",
 			"workspaceId": "postgis",
 			"geometryType": "polygon",
 			"dataset": "sde.carib_resotoration_explorer_n",
@@ -240,7 +240,7 @@
 								"min": 0, 
 								"step": 1, 
 								"text": "Habitat Role in Reducing Coastal Exposure", 
-								"help": "This model was created using the InVEST Coastal Vulnerability model and provides a qualitative estimate of how coastal habitats reduce the vulnerability of coastal population to storm waves and surge. Higher values in the model indicate better protective services offered by natural habitats to coastal populations. <a href='http://ow-maps.s3.amazonaws.com/owExplorer/CoastalVulnerabilityDocumentation.pdf' target=_blank>Click this link to get more information (a new window will open)</a>",
+								"help": "This model was created using the InVEST Coastal Vulnerability model and provides a qualitative estimate of how coastal habitats reduce the vulnerability of coastal population to storm waves and surge. Higher values in the model indicate better protective services offered by natural habitats to coastal populations. <a href='https://ow-maps.s3.amazonaws.com/owExplorer/CoastalVulnerabilityDocumentation.pdf' target=_blank>Click this link to get more information (a new window will open)</a>",
 								"type": "layer"
 							}, 
 							{
@@ -373,7 +373,7 @@
 								"min": 0, 
 								"step": 1, 
 								"text": "Habitat Role in Reducing Coastal Exposure", 
-								"help": "This model was created using the InVEST Coastal Vulnerability model and provides a qualitative estimate of how coastal habitats reduce the vulnerability of coastal population to storm waves and surge. Higher values in the model indicate better protective services offered by natural habitats to coastal populations. <a href='http://ow-maps.s3.amazonaws.com/owExplorer/CoastalVulnerabilityDocumentation.pdf' target=_blank>Click this link to get more information (a new window will open)</a>",
+								"help": "This model was created using the InVEST Coastal Vulnerability model and provides a qualitative estimate of how coastal habitats reduce the vulnerability of coastal population to storm waves and surge. Higher values in the model indicate better protective services offered by natural habitats to coastal populations. <a href='https://ow-maps.s3.amazonaws.com/owExplorer/CoastalVulnerabilityDocumentation.pdf' target=_blank>Click this link to get more information (a new window will open)</a>",
 								"type": "layer"
 							}, 
 							{
@@ -488,9 +488,9 @@
 			}
 		  ],
 	        "name": "Cayman",
-			"ancillaryUrl": "http://services.coastalresilience.org/arcgis/rest/services/Caribbean/Restoration_Explorer/MapServer",
+			"ancillaryUrl": "https://services2.coastalresilience.org/arcgis/rest/services/Caribbean/Restoration_Explorer/MapServer",
 			"sliderLabels" : ["None","Low","Med","High","V.High"],
-			"url": "http://services.coastalresilience.org/arcgis/rest/services/PostGIS/DatabaseConnection/MapServer",
+			"url": "https://services2.coastalresilience.org/arcgis/rest/services/PostGIS/DatabaseConnection/MapServer",
 			"workspaceId": "postgis",
 			"geometryType": "polygon",
 			"dataset": "sde.cayman_wm_erase",
