@@ -5,7 +5,7 @@
     "titleDetail": { "text": "Caribbean", "url": "" },
     "singlePluginMode": {
         "active": true,
-        "pluginFolderName": "restoration_explorer"
+        "pluginFolderName": "caribbean-restoration-explorer"
     },
     "headerLinks": [
         { "text": "The Nature Conservancy", "url": "https://nature.org/marine/" },
