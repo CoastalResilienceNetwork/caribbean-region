@@ -1,8 +1,8 @@
 {
     "plugins": [
         {
-            "repo": "multiexplorer",
-            "name": "restoration_explorer"
+            "repo": "caribbean-restoration-explorer",
+            "name": "caribbean-restoration-explorer"
         }
     ]
 
