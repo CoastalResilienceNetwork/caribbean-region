@@ -1,7 +1,7 @@
 {
     "googleAnalyticsPropertyId": "7401895-54",
     "googleUrlShortenerApiKey": "AIzaSyDO_xBd3griGKuhlYBvv7jVN4Mt58Gl4iw",
-    "titleMain": { "text": "Restoration Explorer", "url": "" },
+    "titleMain": { "text": "Caribbean", "url": "" },
     "titleDetail": { "text": "Caribbean", "url": "" },
     "headerLinks": [
         { "text": "The Nature Conservancy", "url": "http://nature.org/marine/" },
@@ -41,7 +41,8 @@
         "plugins"
     ],
     "pluginOrder": [
-	    "caribbean-restoration-explorer"
+	    "caribbean-restoration-explorer",
+        "regional-planning"
     ],
     "print": {
        "printServerUrl": "http://services.coastalresilience.org:6080/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",

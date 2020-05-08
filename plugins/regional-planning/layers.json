@@ -1,0 +1,25 @@
+[
+    {
+        "displayName": "Caribbean",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://dev-services.coastalresilience.org/arcgis/rest/services/Caribbean",
+            "name": "Caribbean"
+        },
+        "includeLayers": [
+            {
+                "name": "Annual Expected Benefit ($ Millions)",
+                "displayName": "Annual Expected Benefit ($ Millions)"
+            },
+            {
+                "name": "Benefit Cost Ratio (B:C)",
+                "displayName": "Benefit Cost Ratio (B:C)"
+            },
+            {
+                "name": "Benefits per km coral reef (USD $)",
+                "displayName": "Benefits per km coral reef (USD $)"
+            }
+        ]
+    }
+]
