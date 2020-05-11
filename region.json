@@ -60,15 +60,15 @@
             "title": "Caribbean",
             "description": "Coastal Resilience is a decision support tool that provides local, state and national planners a step-wise process to guide decisions to reduce the ecological and socio-economic risks of coastal hazards.",
             "plugins": [
+				{
+                    "title": "<img src='img/benefit_cost.png' hspace=10>Restoration Benefits:Costs",
+                    "description": "Explore benefit to cost ratios of coral reef and mangrove restoration.",
+                    "pluginName": "regional-planning"
+                },
                 {
                     "title": "<img src='plugins/caribbean-restoration-explorer/icon_active.png' hspace=10>Restoration Explorer",
-                    "description": "Explore restoration scenarios across the islands.",
+                    "description": "Interact with various coral reef and mangrove restoration scenarios.",
                     "pluginName": "caribbean-restoration-explorer"
-                },
-				{
-                    "title": "<img src='img/regional_planning.png' hspace=10>Regional Planning",
-                    "description": "Explore regional datasets across the islands.",
-                    "pluginName": "regional-planning"
                 }
             ],
             "partners": [
