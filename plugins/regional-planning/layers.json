@@ -1,6 +1,6 @@
 [
     {
-        "displayName": "Coral Capital",
+        "displayName": "Coral Reef",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
@@ -9,16 +9,39 @@
         },
         "includeLayers": [
             {
-                "name": "Annual Expected Benefit ($ Millions)",
-                "displayName": "Annual Expected Benefit ($ Millions)"
-            },
-            {
                 "name": "Benefit Cost Ratio (B:C)",
                 "displayName": "Benefit Cost Ratio (B:C)"
             },
             {
                 "name": "Benefits per km coral reef (USD $)",
                 "displayName": "Benefits per km coral reef (USD $)"
+            },
+            {
+                "name": "Coral Benefit Scenarios",
+                "includeAllLayers": true
+            }
+        ]
+    },
+    {
+        "displayName": "Mangroves",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://dev-services.coastalresilience.org/arcgis/rest/services/Caribbean",
+            "name": "Caribbean"
+        },
+        "includeLayers": [
+            {
+                "name": "Mangrove Benefit Cost Ratio (B:C)",
+                "displayName": "Benefit Cost Ratio (B:C)"
+            },
+            {
+                "name": "Benefits per hectare (USD $)",
+                "displayName": "Benefits per hectare (USD $)"
+            },
+            {
+                "name": "Mangrove Annual Expected Benefit ($ Millions)",
+              	"displayName": "Annual Expected Benefit ($ Millions)"
             }
         ]
     }
