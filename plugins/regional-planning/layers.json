@@ -19,6 +19,10 @@
             {
                 "name": "Coral Benefit Scenarios",
                 "includeAllLayers": true
+            },
+            {
+                "name": "Coral Flood Extent Scenarios",
+                "includeAllLayers": true
             }
         ]
     },
