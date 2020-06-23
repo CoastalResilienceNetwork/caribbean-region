@@ -79,10 +79,12 @@
             	},
             	{
                     "logoPath": "img/IH_Small.jpg",
+                     "link": "",
                     "title": "IH Cantabria"
             	},
             	{
                     "logoPath": "img/UCSC_small.tif",
+                     "link": "",
                     "title": "UCSC"
             }
         ]
