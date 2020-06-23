@@ -3,6 +3,10 @@
         {
             "repo": "caribbean-restoration-explorer",
             "name": "caribbean-restoration-explorer"
+        },
+        {
+            "repo": "regional-planning",
+            "name": "regional-planning"
         }
     ]
 
