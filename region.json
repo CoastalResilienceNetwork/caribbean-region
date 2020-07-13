@@ -86,6 +86,11 @@
                     "logoPath": "img/UCSC_small.jpg",
                      "link": "",
                     "title": "UCSC"
+            },
+            {
+                    "logoPath": "img/BMU100.png",
+                     "link": "",
+                    "title": "Federal Ministry of the Environment Nature Conservation and Nuclear Safety"
             }
         ]
     }
