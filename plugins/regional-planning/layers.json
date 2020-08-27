@@ -25,5 +25,28 @@
                 "includeAllLayers": true
             }
         ]
+    },
+    {
+        "displayName": "Mangroves",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://services2.coastalresilience.org/arcgis/rest/services/Caribbean",
+            "name": "Caribbean"
+        },
+        "includeLayers": [
+            {
+                "name": "Mangrove Benefit Cost Ratio (B:C)",
+                "displayName": "Benefit Cost Ratio (B:C)"
+            },
+            {
+                "name": "Benefits per hectare (USD $)",
+                "displayName": "Benefits per hectare (USD $)"
+            },
+            {
+                "name": "Mangrove Annual Expected Benefit ($ Millions)",
+              	"displayName": "Annual Expected Benefit ($ Millions)"
+            }
+        ]
     }
 ]
