@@ -1,0 +1,17 @@
+[
+    {
+        "displayName": "Vulnerable Populations",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://services2.coastalresilience.org/arcgis/rest/services/Caribbean",
+            "name": "Caribbean"
+        },
+        "includeLayers": [
+            {
+                "name": "Demographics",
+                "includeAllLayers": true
+            }
+        ]
+    }
+]
