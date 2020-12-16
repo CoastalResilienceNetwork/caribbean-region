@@ -9,7 +9,8 @@
         },
         "includeLayers": [
             {
-                "name": "Demographics",
+                "name": "People",
+                "displayName": "Demographics",
                 "includeAllLayers": true
             }
         ]
