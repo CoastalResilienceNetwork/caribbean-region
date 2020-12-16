@@ -1,6 +1,6 @@
 [
     {
-        "displayName": "Demographics",
+        "displayName": "Vulnerable Populations",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
@@ -9,7 +9,7 @@
         },
         "includeLayers": [
             {
-                "name": "People",
+                "name": "Demographics",
                 "includeAllLayers": true
             }
         ]
